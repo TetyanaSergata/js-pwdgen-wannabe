@@ -7,11 +7,16 @@ console.log(cognomeUtente);
 // Il colore preferito
 var colorePreferito = prompt('Il tuo colore preferito');
 console.log(colorePreferito);
+// number
+var number = 19;
 
-var password = nomeUtente + cognomeUtente + colorePreferito;
+// Generatore password
+var password = nomeUtente +
+               cognomeUtente +
+               colorePreferito + number;
 console.log(password);
 
-document.getElementById('nome_utente').innerHTML = nomeUtente;
-document.getElementById('cognome_utente').innerHTML = cognomeUtente;
-document.getElementById('colore_preferito').innerHTML = colorePreferito;
-document.getElementById('numero_preferito').innerHTML = 19;
+document.getElementById('password').innerHTML = password;
+// document.getElementById('cognome_utente').innerHTML = cognomeUtente;
+// document.getElementById('colore_preferito').innerHTML = colorePreferito;
+// document.getElementById('numero_preferito').innerHTML = 19;
