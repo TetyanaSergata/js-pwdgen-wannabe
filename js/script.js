@@ -14,3 +14,4 @@ console.log(password);
 document.getElementById('nome_utente').innerHTML = nomeUtente;
 document.getElementById('cognome_utente').innerHTML = cognomeUtente;
 document.getElementById('colore_preferito').innerHTML = colorePreferito;
+document.getElementById('numero_preferito').innerHTML = 19;
